@@ -1,0 +1,81 @@
+header{
+    background-color: rgb(169, 100, 233);
+    color: aqua;
+    font-size: 30px;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/1038916/pexels-photo-1038916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position-y: -250px ;
+}
+main{
+    background-color: rgba(22, 1, 156, 0.7);
+    color: aquamarine;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+footer{
+    background-color: rgb(109, 5, 255);
+    color: rgba(0, 255, 234, 0.903);
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.blokc1 {
+    width: 80%;
+    height: 100%;
+    background-color:blue;
+    display: flex;
+    margin: auto;  
+    background: linear-gradient( to right, rgb(65, 5, 228) 25%, rgb(121, 10, 190) 35%, rgb(210, 11, 190)); 
+}
+
+.left{
+    width: 30%;
+    height: 10%;
+    background-color: transparent;
+    float: left;
+    padding-left: 150px;
+    padding-right: 150px;
+} 
+
+.right{
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+    float: right;
+}
+
+.p_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.p_left img{
+    padding-top: 30px;
+}
+
+.p_right{
+    width: 70%;
+    float: right;
+  
+}
+
+.p_right img{
+    width: 50px;
+    padding: 20px;
+}
+ .p_right ul    {
+list-style: none;
+display: flex;
+align-items: center;
+ }
